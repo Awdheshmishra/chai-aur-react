@@ -1,11 +1,17 @@
+import React from 'react'
+import Navbar from './component/Navbar'
+import Footer from './component/Footer'
+import Home from './component/Home'
 
 function App() {
-  
   return (
-    <h1>Chai aur react with vite </h1>
-  )
+    <>
+    <Navbar/>
+    <Home/>
+   < Footer/>
+   </>
 
-  
+  )
 }
 
 export default App
