@@ -8,7 +8,8 @@ function App() {
   const [counter,setCounter] = useState(20)
 
   const addVlaue = () => {
-    setCounter(prevCounter => prevCounter+1)
+    // setCounter(prevCounter => prevCounter+1)
+    setCounter(counter+1)
   }
   const removeValue = () => {
     setCounter(counter-1)
