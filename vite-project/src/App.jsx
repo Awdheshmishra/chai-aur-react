@@ -1,17 +1,13 @@
-import React from 'react'
-import Navbar from './component/Navbar'
-import Footer from './component/Footer'
-import Home from './component/Home'
+import React  from "react";
+import Home from "./component/Home";
 
-function App() {
+function App(){
+  const num = 100
   return (
+    // <div>HTML {num}</div>\
     <>
-    <Navbar/>
     <Home/>
-   < Footer/>
-   </>
-
+    </>
   )
 }
-
 export default App
